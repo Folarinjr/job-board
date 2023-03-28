@@ -33,7 +33,6 @@ const Home = () => {
           <Nearbyjobs />
         </View>
       </ScrollView>
-      <Text>Hello, Folarin</Text>
     </SafeAreaView>
   );
 };

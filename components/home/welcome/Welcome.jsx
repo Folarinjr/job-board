@@ -18,7 +18,7 @@ const Welcome = () => {
   const router = useRouter();
   const [activeJobType, setActiveJobType] = useState(jobTypes[0]);
   return (
-    <View style={{ backgroundColor: "red", flex: 1, height: "100%" }}>
+    <View>
       <View style={styles.container}>
         <Text style={styles.userName}>Hello, FOLARIN</Text>
         <Text style={styles.welcomeMessage}>Find your dream job!</Text>
