@@ -29,6 +29,7 @@ export const useFetch = (endpoint, query) => {
       setIsLoading(false);
     } catch (error) {
       setError(error);
+      console.log(error);
       alert("There's an error!");
     } finally {
       setIsLoading(false);
